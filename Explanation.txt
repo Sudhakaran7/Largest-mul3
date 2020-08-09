@@ -1,0 +1,56 @@
+You are given with a arry of integers, return the largest multiple of three that can be formed by concatenating some of the given digits in any order.
+return the answer in a string format, Since the answer may not fit in an integer data type.
+if the answer cannot be formd print -1
+
+Input description:
+First line contain n, size of the array
+Second line contain n eleemnt of elements in array
+(1<n<1000)
+
+Output Description:
+Print the largest multiple of three that can be formed by concatenating some of the given digits in any order, if it cannot be fored print -1
+
+Sampe Input:
+3
+4 2 5
+
+Sample Output:
+54
+
+Explanation:
+From the given array, we can form 54 which is the highest number of multiple 3
+
+Sample Input:
+4
+3 9 3 5
+
+Sample Output:
+933
+
+Sample Input:
+3
+8 1 9
+
+Sample Output:
+981
+
+Sample Input:
+5
+8 5 9 4 7
+
+Sampe Output:
+98754
+
+Sample Input:
+7
+9 8 4 6 3 9 4
+
+Sample Output:
+998643
+
+Sample Input:
+8
+8 8 5 4 9 2 5 9
+
+Sample Output:
+9988554
